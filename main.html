@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./main.css" />
+    <script defer src="./main.js"></script>
+    <title>linearGradient</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="color_box"></div>
+      <div class="form-box">
+        <form action="#">
+          <div class="gradient_box">
+            <input class="color-input" type="color" value="#c55f0c" />
+            <input class="color-input" type="color" value="#e7eb09" />
+            <select class="select-input">
+              <option value="to top">to Top</option>
+              <option value="to bottom">to Bottom</option>
+              <option value="to left">to Left</option>
+              <option value="to right">to Right</option>
+              <option value="to bottom right">to Bottom Right</option>
+              <option value="to bottom left">to Bottom Left</option>
+              <option value="to top right">to Top Right</option>
+              <option value="to top left">to Top Left</option>
+            </select>
+          </div>
+          <div class="gradient_box">
+            <input
+              type="text"
+              value=""
+              class="code"
+              disabled
+            />
+          </div>
+          <div class="gradient_box">
+            <button class="btn" id="copyBtn">copy</button>
+            <button class="btn" id="resetBtn">reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+*,
+::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+:root {
+  --font-color: #1d1d1d;
+  --gray-light: #f0f0f0;
+  --white: #ffffff;
+  --violet: #e9a1e9;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: var(--font-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: var(--gray-light);
+  height: 45rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 1.5rem 1.5rem #a5a5a5c0;
+}
+.color_box {
+  height: 50%;
+  width: 100%;
+  border-radius: 1rem;
+  background-image: linear-gradient(to right, #e7eb09, #c55f0c);
+}
+.gradient_box {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type="color"] {
+  border: none;
+  padding: 0.5rem;
+}
+select {
+  font-family: inherit;
+  font-size: 1.2rem;
+  outline: none;
+  color: var(--font-color);
+  border: none;
+  padding: 0.8rem 2rem;
+  margin-left: 5rem;
+}
+.code {
+  font-size: 1.4rem;
+  font-family: inherit;
+  height: 5rem;
+  width: 30rem;
+  border: 2px solid var(--violet);
+  padding: 0 1rem;
+  border-radius: 5px;
+}
+.btn {
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-family: inherit;
+  margin: 0 4rem;
+  padding: 0.6rem 3rem;
+  border: none;
+  border-radius: 3px;
+  background-image: linear-gradient(to bottom, #2c0030, #970a79);
+  color: var(--white);
+}
+.btn:hover {
+  background-image: linear-gradient(to bottom, #970a79, #2c0030);
+}
